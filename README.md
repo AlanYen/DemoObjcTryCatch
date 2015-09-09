@@ -1,5 +1,6 @@
 # DemoObjcTryCatch
 Try Objc Try Catch
+</br>
 參考 : http://www.awnlab.com/archives/2616.html
 
 1、因為try catch無法捕獲UncaughtException，而OC中大部分crash如：內存溢出、野指針等都是無法捕獲的，而能捕獲的只是像數組越界之類（這真心需要catch麼？註：完全可以通過代碼判斷避免），所以try catch對於OC來說，比較雞肋。</br>
